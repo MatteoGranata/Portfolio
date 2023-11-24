@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-    position:fixed;
     margin: 0;
     padding: 0;
     display: flex;
@@ -236,7 +235,7 @@ li {
     font-size: 1.5rem;
 }
 
-.other p{
+.other p {
     position: relative;
 }
 
@@ -258,16 +257,16 @@ li {
     transform-origin: bottom left;
 }
 
-@media (max-width:1280px){
-    .title{
+@media (max-width:1280px) {
+    .title {
         font-size: 11vw;
     }
 
-    .sub-title{
-    font-size: 4vw;
+    .sub-title {
+        font-size: 4vw;
     }
 
-    .other a{
+    .other a {
         font-size: 2.6vw;
     }
 }
@@ -279,14 +278,15 @@ li {
         margin-right: 5%;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 5vw;
     }
-    .other a{
-         font-size: 3.5vw;
-         border: 1px solid #e2b6ff ;
-         padding: 1%;
-         border-radius: 10px;
+
+    .other a {
+        font-size: 3.5vw;
+        border: 1px solid #e2b6ff;
+        padding: 1%;
+        border-radius: 10px;
     }
 
 }
@@ -630,7 +630,15 @@ li {
 
 /*about page*/
 
-
+.background-container {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: -2;
+}
 
 .left {
     position: sticky;
