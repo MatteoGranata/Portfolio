@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor:cell;
+    cursor: cell;
 
 }
 
@@ -413,7 +413,8 @@ p {
 
 }
 
-.img8 {
+.img8,
+.img9 {
     position: absolute;
     left: 1%;
     top: 30%;
@@ -455,6 +456,10 @@ p {
     display: block;
 }
 
+.work9:hover .img9{
+    display: block;
+}
+
 @media (max-width: 1280px) {
 
     .img1,
@@ -465,14 +470,14 @@ p {
         width: 40%;
         top: 25vh;
         left: 5vw;
-        
+
     }
 
     .img4 {
         width: 40%;
         top: 15vh;
         left: 5vw;
-        
+
     }
 
     .img7 {
@@ -504,8 +509,8 @@ p {
     .img5,
     .img6,
     .img7,
-    .img8{
-       filter: opacity(0);
+    .img8 {
+        filter: opacity(0);
     }
 
 }
