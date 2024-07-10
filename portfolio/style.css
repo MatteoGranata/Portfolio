@@ -414,7 +414,10 @@ p {
 }
 
 .img8,
-.img9 {
+.img9,
+.img10,
+.img11,
+.img12 {
     position: absolute;
     left: 1%;
     top: 30%;
@@ -457,6 +460,15 @@ p {
 }
 
 .work9:hover .img9{
+    display: block;
+}
+.work10:hover .img10{
+    display: block;
+}
+.work11:hover .img11{
+    display: block;
+}
+.work12:hover .img12{
     display: block;
 }
 
